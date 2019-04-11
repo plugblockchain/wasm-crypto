@@ -1,0 +1,28 @@
+{
+  "version": "0.8.1",
+  "private": true,
+  "engines": {
+    "node": "^10.13.0",
+    "yarn": "^1.10.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge.0",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "check": "yarn lint",
+    "lint": "tslint --project . && tsc --noEmit --pretty",
+    "clean": "./scripts/clean.sh",
+    "postinstall": "plugnet-dev-yarn-only",
+    "test": "echo \"Tests included in build\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@plugnet/dev": "^0.30.0",
+    "@plugnet/util": "^0.76.1"
+  }
+}

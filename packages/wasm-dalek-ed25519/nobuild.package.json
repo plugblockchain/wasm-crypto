@@ -1,0 +1,21 @@
+{
+  "name": "@plugnet/wasm-dalek-ed25519",
+  "version": "0.7.1",
+  "author": "Jaco Greeff <jacogr@gmail.com>",
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "wasm.d.ts",
+    "wasm.js",
+    "wasm_bg.js",
+    "wasm_wasm.js"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "peerDependencies": {
+    "@plugnet/util": "*"
+  },
+  "devDependencies": {
+    "jest": "*"
+  }
+}
