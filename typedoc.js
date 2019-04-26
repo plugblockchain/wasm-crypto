@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'Polkadot JS WASM',
+  name: 'Plugnet JS WASM',
   exclude: '**/*+(index|e2e|spec).ts',
   excludeExternals: true,
   excludeNotExported: true,

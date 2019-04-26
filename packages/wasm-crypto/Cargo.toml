@@ -8,7 +8,7 @@ edition = "2018"
 license = "Apache-2.0"
 name = "wasm"
 publish = false
-repository = "https://github.com/polkadot-js/wasm/"
+repository = "https://github.com/plugblockchain/wasm-crypto"
 version = "0.0.0"
 
 [lib]
