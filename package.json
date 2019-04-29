@@ -23,6 +23,6 @@
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@plugnet/dev": "^0.30.4",
-    "@plugnet/util": ">=0.76.1"
+    "@plugnet/util": ">=0.90.100"
   }
 }
