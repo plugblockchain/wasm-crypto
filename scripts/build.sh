@@ -18,7 +18,8 @@ for PKG in "${PACKAGES[@]}"; do
     ./adjust.sh
     ../../scripts/test-package.sh
 
-    rm -rf build/*-e
+    rm -rf build/*-e build/package.json
+    cp package.json build/
     ls -al build
 
     cd ..
