@@ -5,6 +5,8 @@
 
 Various WASM wrappers around Rust crates
 
+_This repo is a fork of [@polkadot/wasm](https://github.com/polkadot-js/wasm), up to the version which works with current plug-node_
+
 ## overview
 
 It is split up into a number of internal packages, namely utilities -
