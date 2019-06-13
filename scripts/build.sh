@@ -4,9 +4,9 @@ set -e
 
 ./scripts/install-build-deps.sh
 
-lerna run build
+lerna run build --stream
 
-lerna run test
+lerna run test --stream
 #
 #echo "*** Building packages"
 #cd packages
