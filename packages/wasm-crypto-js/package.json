@@ -19,6 +19,6 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@plugnet/wasm-crypto": "^0.11.102"
+    "@plugnet/wasm-crypto": "*"
   }
 }
