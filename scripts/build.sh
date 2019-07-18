@@ -7,7 +7,7 @@ set -e
 lerna run build --stream
 
 lerna run test --stream
-#
+
 #echo "*** Building packages"
 #cd packages
 #
@@ -19,11 +19,9 @@ lerna run test --stream
 #    cd $PKG
 #
 #    ../../scripts/build-package.sh
-#    ./adjust.sh
 #    ../../scripts/test-package.sh
 #
-#    rm -rf build/*-e build/package.json
-#    cp package.json build/
+#    rm -rf build/*-e build/package.json build/README.md
 #    ls -al build
 #
 #    cd ..

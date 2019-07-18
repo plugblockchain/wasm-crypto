@@ -8,13 +8,14 @@
     "index.js",
     "wasm.d.ts",
     "wasm.js",
+    "wasm_asm.js",
     "wasm_bg.js",
     "wasm_wasm.js"
   ],
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "../../scripts/build-package.sh && ./adjust.sh && rm -rf build/*-e build/package.json && cp package.json build/",
+    "build": "../../scripts/build-package.sh && rm -rf build/*-e build/package.json && cp package.json build/",
     "test": "../../scripts/test-package.sh"
   },
   "peerDependencies": {
