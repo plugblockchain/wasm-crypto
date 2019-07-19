@@ -22,6 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@plugnet/dev": "^0.30.8",
-    "@plugnet/util": ">=0.90.100"
+    "@plugnet/util": ">=0.90.100",
+    "override-require": "^1.1.1"
   }
 }
