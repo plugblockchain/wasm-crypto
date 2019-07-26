@@ -4,9 +4,9 @@ set -e
 
 ./scripts/install-build-deps.sh
 
-lerna run build --stream
+lerna run build --stream --scope=@plugnet/wasm-crypto
 
-lerna run test --stream
+lerna run test --stream --scope=@plugnet/wasm-crypto
 
 #echo "*** Building packages"
 #cd packages
