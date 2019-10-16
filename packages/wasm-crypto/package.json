@@ -19,10 +19,6 @@
   },
   "main": "index.js",
   "types": "index.d.ts",
-  "scripts": {
-    "build": "../../scripts/build-package.sh && rm -rf build/*-e build/package.json && cp package.json build/",
-    "test": "../../scripts/test-package.sh"
-  },
   "peerDependencies": {
     "@plugnet/util": "*"
   }

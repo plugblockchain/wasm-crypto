@@ -3,7 +3,7 @@
 set -e
 
 # wasm2js for wasm -> asm.js
-BINARYEN=( "wasm-opt" "wasm2js")
+BINARYEN=( "wasm-opt" "wasm2js" )
 
 # install wasm-pack as required
 if ! [ -x "$(command -v wasm-pack)" ]; then
