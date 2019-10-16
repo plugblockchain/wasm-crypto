@@ -13,6 +13,6 @@ describe('schnorrkel-js', () => {
   });
 
   Object.keys(tests).forEach((name) => {
-    it(name, tests[name]);
+    it(name, () => tests[name](wasm));
   });
 });
