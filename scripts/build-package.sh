@@ -17,7 +17,7 @@ rm -rf ./build ./pkg
 
 # build new via nightly & wasm-pack
 echo "*** Building WASM output"
-rustup run wasm-pack build --release --scope plugnet --target nodejs
+rustup run nightly wasm-pack build --release --scope plugnet --target nodejs
 mv pkg build
 
 # optimise
